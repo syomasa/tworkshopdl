@@ -38,17 +38,17 @@ tworkshopdl -h
 
 ### Download workshop item into default steamapps location
 ```
-./run_tworkshopdl.sh  \<workshop-item-id\>
+./run_tworkshopdl.sh  <workshop-item-id>
 ```
 
 ### Download workshop item into specific directory
 ```
-./run_tworkshopdl.sh --download-dir path/to/your/dir \<workshop-item-id\>
+./run_tworkshopdl.sh --download-dir path/to/your/dir <workshop-item-id>
 ```
 
 ### Create missing directories first and download workshop item into that directory
 ```
-./run_tworkshopdl.sh -p --download-dir path/to/your/dir \<workshop-item-id\>
+./run_tworkshopdl.sh -p --download-dir path/to/your/dir <workshop-item-id>
 ```
 
 ## Additional notes
