@@ -12,29 +12,44 @@ Simple steam workshop download utility for terraria. Useful for downloading cont
 ## Installation
 
 ### Clone repository
->$ git clone https://github.com/syomasa/tworkshopdl
-
+```
+git clone https://github.com/syomasa/tworkshopdl
+```
 ### Ensure correct permissions
->$ cd tworkshopdl
 
->$ chmod +x run_tworkshopdl.sh 
+```
+cd tworkshopdl
+```
+```
+chmod +x run_tworkshopdl.sh
+``` 
 
 ### (Optional) Create symbolic link to ~/.local/bin to make it available everywhere
->$ ln -s ~/path/to/script.sh ~/.local/bin/tworkshopdl
+```
+ln -s ~/path/to/script.sh ~/.local/bin/tworkshopdl
+```
 
-To test everything works run `tworkshopdl -h`
+Test everything works as intended 
+```
+tworkshopdl -h
+```
 
 ## Usage
 
 ### Download workshop item into default steamapps location
->$ ./run_tworkshopdl.sh  \<workshop-item-id\>
+```
+./run_tworkshopdl.sh  \<workshop-item-id\>
+```
 
 ### Download workshop item into specific directory
->$ ./run_tworkshopdl.sh --download-dir path/to/your/dir \<workshop-item-id\>
+```
+./run_tworkshopdl.sh --download-dir path/to/your/dir \<workshop-item-id\>
+```
 
 ### Create missing directories first and download workshop item into that directory
->$ ./run_tworkshopdl.sh -p --download-dir path/to/your/dir \<workshop-item-id\>
-
+```
+./run_tworkshopdl.sh -p --download-dir path/to/your/dir \<workshop-item-id\>
+```
 
 ## Additional notes
 
